@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:id="@+id/item_RV"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingHorizontal="16dp"
+    android:layout_height="95dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="4dp"
+        android:layout_marginVertical="12dp"
+        android:background="@drawable/ic_item_bg"
+        android:layout_marginStart="37.5dp">
+
+        <LinearLayout
+            android:padding="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="50dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/placesRVTileTV"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.3"
+                tool:text="Name"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/placesRVDescriptionTV"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:layout_weight="2"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                tool:text="Description"/>
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/placesRV_IV"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_image"
+        android:scaleType="centerCrop"
+        android:elevation="4dp"
+        android:layout_gravity="center_vertical"
+        app:shapeAppearanceOverlay="@style/circular"
+        app:strokeWidth="3dp"
+        app:strokeColor="@color/yellow"/>
+
+</FrameLayout>

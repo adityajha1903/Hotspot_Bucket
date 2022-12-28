@@ -1,8 +1,8 @@
 # Hotspot_Bucket
 *TODO*
 
-## Screen Recording
-<img src="https://i.ibb.co/tQcR8Bq/ezgif-5-739491bf75-min-1.gif" width="130" alt="Hello Heathy filter">
+## Collapsing Tool Bar
+<img src="https://i.ibb.co/7nSr4pX/screenrecorder-2022-12-28-14-34.gif" width="130" alt="Hello Heathy filter">
 
 ## App Screenshot
 <p float="left">  

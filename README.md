@@ -2,6 +2,7 @@
 *TODO*
 
 ## Screen Recording
+<img src="https://i.ibb.co/tQcR8Bq/ezgif-5-739491bf75-min-1.gif" width="130" alt="Hello Heathy filter">
 
 ## App Screenshot
 <p float="left">  
